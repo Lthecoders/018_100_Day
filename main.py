@@ -17,9 +17,10 @@ while True:
 
   guess_input = input("\nwhat is your guess --->  ")
   if not guess_input.lstrip('-').isdigit():
-    print("\033[31m",
-          "Please input an integer only.\n you cannot put an float or string or any other object ",
-          "\033[0m")
+    print(
+        "\033[31m",
+        "Please input an integer only.\n you cannot put an float or string or any other object ",
+        "\033[0m")
     continue
 
   guess_number = int(guess_input)
@@ -74,5 +75,6 @@ while True:
         "\033[0m",
     )
 
-
-print("\033[34m","\n\n<-------------------thanks for playing------------------->", "\033[0m")
+print("\033[34m",
+      "\n\n<-------------------thanks for playing------------------->",
+      "\033[0m")
