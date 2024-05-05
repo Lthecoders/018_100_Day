@@ -1,8 +1,8 @@
+# NRG
 print("\033[34m",
       "--------------> One-Million-To-One challenge <--------------",
       "\033[0m")
 print("\033[34m", "                ----------------------------", "\033[0m")
-
 print(
     "\n you have to guess which number i had picked🤔 from 0 to 1,000,000🤔🤔\n")
 attempts = 0
