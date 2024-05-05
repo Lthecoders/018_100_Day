@@ -4,7 +4,7 @@ print("\033[34m",
 print("\033[34m", "                ----------------------------", "\033[0m")
 
 print(
-    "\n you have to guess which number i had picked🤔🤔 from 0 to 1,000,000🤔🤔\n")
+    "\n you have to guess which number i had picked🤔 from 0 to 1,000,000🤔🤔\n")
 attempts = 0
 while True:
 
