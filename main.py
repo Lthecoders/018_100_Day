@@ -65,6 +65,10 @@ while True:
 
   elif guess_number > 1000000:
     print("\nout of range")
+
+  elif guess_number < 0:
+    break
+        
   else:
     print("\nYou cannot input a text")
 
